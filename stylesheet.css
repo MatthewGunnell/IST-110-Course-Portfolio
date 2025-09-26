@@ -1,0 +1,354 @@
+/* Used on every page using this style sheet */
+* {
+  box-sizing: border-box;
+  margin: 0px;
+  padding: 0px;
+}
+
+
+/* Formats the body of every page */
+body {
+  color: #1a1a1a;
+  font-family: "Times New Roman", Times, serif;
+  accent-color: #1a1a1a;
+  background-color: rgb(255, 255, 255);
+
+
+}
+
+
+/* Formats the main section of every page */
+main {
+  padding: 25px;
+
+}
+
+
+/* Formats the footer on every page */
+.footer {
+  width: 100%;
+  float: left;
+  background-color: #1a1a1a;
+  color: white;
+  padding: 15px;
+  font-size: 12px;
+  margin-top: 300px;
+
+}
+
+/* Formats the footers content on every page */
+.footer div {
+  text-align: center;
+
+}
+
+
+/* Formats the navigation bar on every page */
+.header_bar {
+  width: 100%;
+  float: left;
+  background-color: #1a1a1a;
+  display: block;
+  padding-left: 40px;
+  backdrop-filter: blur(10px);
+
+}
+
+/* Formats the navigation bar links on every page */
+.header_bar a {
+  color: white;
+  font-size: 25px;
+  padding: 25px 25px;
+  text-decoration: none;
+  display: inline-block;
+
+}
+
+.header_bar a:hover {
+  color: rgb(169, 117, 211);
+  transform: scale(1.1);
+}
+
+.header_bar a span {
+  color: rgb(169, 117, 211);
+
+}
+
+/* Formats the page title */
+.header_bar div {
+  color: rgb(169, 117, 211);
+  font-size: 35px;
+  padding: 25px 200px 25px 160px;
+  text-decoration: none;
+  font-weight: bold;
+  font-variant: small-caps;
+  letter-spacing: 2px;
+  display: inline-block;
+
+}
+
+.header_bar div:hover {
+  color: rgb(169, 117, 211);
+  text-shadow: 0 0 25px rgb(169, 117, 211),
+    0 0 50px rgb(169, 117, 211);
+  transform: scale(1.1);
+
+
+}
+
+
+/* HOMEPAGE */
+
+
+/* Formats the body part of the main page */
+.header_message {
+  width: 100%;
+  display: block;
+  float: left;
+
+
+}
+
+/* Formats the child of the body part of the main page */
+.header_message_child {
+  width: 60%;
+  display: inline;
+  float: left;
+  font-weight: bold;
+  padding: 100px 200px;
+  line-height: 1.2;
+
+
+}
+
+.header_message_child span {
+  color: rgb(169, 117, 211);
+
+}
+
+.header_message_child .paragraph {
+  padding: 10px;
+  font-size: 18px;
+
+}
+
+.header_message .header_image {
+  width: 40%;
+  float: left;
+  align-content: center;
+  padding-top: 75px;
+
+}
+
+.header_message .header_image img {
+  width: 450px;
+  height: 600px;
+  border-radius: 75%;
+
+}
+
+
+/* CONTACTS PAGE */
+
+
+.contact_message {
+  width: 100%;
+  display: block;
+  float: left;
+
+
+}
+
+.contact_message_child {
+  width: 60%;
+  display: inline;
+  float: left;
+  font-weight: bold;
+  padding: 100px 200px;
+  line-height: 1.2;
+
+
+}
+
+.contact_message_child span {
+  color: rgb(169, 117, 211);
+
+}
+
+.contact_message_child .paragraph {
+  padding: 10px;
+  font-size: 25px;
+
+}
+
+.contact_message .contact_image {
+  width: 40%;
+  float: left;
+  align-content: center;
+  padding-top: 75px;
+
+}
+
+.contact_message .contact_image img {
+  width: 450px;
+  height: 600px;
+  border-radius: 75%;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+  .header_bar {
+    width: 100%;
+    background-color: #1a1a1a;
+    float: left;
+    padding-left: 0px;
+    text-align: center;
+
+
+  }
+  .header_bar a {
+    color: white;
+    font-size: 25px;
+    padding: 25px 25px;
+    text-decoration: none;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+
+  }
+
+  .header_bar a:hover {
+    color: rgb(169, 117, 211);
+    font-size: 30px;
+  }
+
+
+  .header_bar div {
+    font-size: 35px;
+    padding: 25px;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+
+  }
+
+
+  .header_message {
+    width: 100%;
+    float: left;
+
+
+  }
+
+  .header_message_child {
+    width: 100%;
+    float: left;
+    padding: 0px;
+
+  }
+
+  .header_message_child .paragraph {
+    padding: 10px;
+    font-size: 18px;
+
+  }
+
+  .header_message .header_image {
+    width: 100%;
+    float: left;
+    align-content: center;
+    padding-top: 75px;
+
+  }
+
+  .header_message .header_image img {
+    width: 150px;
+    height: 200px;
+    margin: auto;
+    border-radius: 75%;
+
+  }
+
+
+}
+
+
+
+
+@media only screen and (max-width: 1500px) {
+  .header_bar {
+    width: 100%;
+    padding-left: 0px;
+
+  }
+
+  .header_bar a {
+    font-size: 25px;
+    padding: 15px;
+    text-align: center;
+    float: left;
+    width: 25%;
+
+  }
+
+  .header_bar a:hover {
+    color: rgb(169, 117, 211);
+    font-size: 30px;
+  }
+
+  .header_bar div {
+    width: 100%;
+    text-align: center;
+    padding: 15px;
+  }
+
+  .header_message {
+
+    width: 100%;
+    height: 100%;
+    float: left;
+
+  }
+
+  .header_message_child {
+    width: 100%;
+    padding: 35px;
+    align-content: center;
+
+  }
+
+  .header_message_child .paragraph {
+    width: 100%;
+    padding: 10px;
+    font-size: 18px;
+
+  }
+
+  .header_message .header_image {
+    width: 100%;
+    padding: 25px;
+
+
+  }
+
+  .header_message .header_image img {
+    border-radius: 75%;
+    display: block;
+    margin: auto;
+    width: 450px;
+    height: 600px;
+
+  }
+
+}
